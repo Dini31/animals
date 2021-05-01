@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>Form pada HTML</title>
+  </head>
+  <body background="bg mono.jpg">
+    <form action="Proses.html" method="post">
+      <table bgcolor="#CFD8DC" align="center" width="700">
+        <tr>
+          <td colspan="2" colspan="2" height="30"><font size="6"><b>FORMULIR PENDATAAN MAHASISWA 2020</b></font></td>
+        </tr>
+        <tr >
+            <td  width="150">Username: </td>
+            <td width="550"><input type="text" name="user"></td>
+        </tr>
+        <tr >
+      	    <td>Password : </td>
+            <td><input type="password" name="pass"></td>
+        </tr>
+        <tr>
+            <td >Fullname:</td>
+            <td><input type="text" name="Nama"></td>
+        </tr>
+        <tr>
+            <td >Email:</td> 
+            <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td>Agama: </td>
+            <td><input type="checkbox" name="islam">Islam
+                <input type="checkbox" name="kristen">Kristen
+                <input type="checkbox" name="hindu">Hindu
+                <input type="checkbox" name="budha">Budha
+                <input type="checkbox" name="konghucu">Konghucu</td>
+        </tr>
+        <tr>
+            <td >NO. HP: </td>
+            <td><input type="number" name="Nomor"></td>  
+        </tr>
+        <tr>
+      	    <td >Jenis Kelamin </td>
+            <td><input type="radio" name="jk" value="laki-laki">Laki-laki
+                <input type="radio" name="pr" value="perempuan">Perempuan</td>
+        </tr>
+      	 <tr>
+          <td >Kota asal :</td>
+          <td>
+        	<select>
+            <option value="pilih" >--pilih kota--</option>
+        		<option>Semarang</option>
+        		<option>Bandung</option>
+            <option>Palembang</option>
+            <option>Padang</option>
+            <option>Aceh</option>
+            <option>Jambi</option>
+            <option>Bengkulu</option>
+            <option>Medan</option>
+        	</select></td>
+        </tr>      	
+      	<tr>
+          <td >Komentar:<br></td>
+          <td><textarea rows='10' cols='60' placeholder="Tulis jawaban Anda di sini" ></textarea></td>
+        </tr>
+        <tr>
+      	 <td height="30" align="right" colspan="2" ><input type="reset" name="reset"><input type="submit" value="Kirim" >
+        </tr>
+        </form>
+      </table>
+  </body>
+</html>
